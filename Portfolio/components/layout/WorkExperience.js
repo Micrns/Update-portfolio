@@ -6,22 +6,22 @@ import Image from "next/image"
 
 export default function ExperienceCards(){
     return (
-        <section>
+        <section className="shadow-lg rounded-md">
             <div className="flex items-center gap-20 justify-center">
 
                 <div>
                     <Image 
                         src={"/unnamed.webp"}
-                        width={250}
-                        height={250}
-                        className="rounded-lg"
+                        width={300}
+                        height={300}
+                        className="rounded-lg shadow-xl"
                         alt="obviohealth"
                     
                     
                     />
 
                     
-                    <section className="relative  backdrop-blur-sm mx-auto border-gray-500 border-2 inset-x-0 bottom-16 w-10/12 bg-white/15 rounded-lg flex items-center justify-between p-3">
+                    <section className="relative  backdrop-blur-md mx-auto border-white/15 border-2 inset-x-0 bottom-16 w-10/12 bg-white/20 rounded-full flex items-center justify-between p-3">
                         <p className="text-base text-white">ObvioHealth</p>
                         <Link
                             href={""}
@@ -41,17 +41,17 @@ export default function ExperienceCards(){
                 <div>
                     <Image 
                         src={"/kailaasa_logo.jpeg"}
-                        width={250}
-                        height={250}
-                        className="rounded-md"
+                        width={300}
+                        height={300}
+                        className="rounded-md shadow-xl"
                         alt="kailasa"
                     
                     />
-                    <section className="relative  backdrop-blur-sm mx-auto border-gray-500 border-2 inset-x-0 bottom-16 w-10/12 bg-white/15 rounded-lg flex items-center justify-between p-3">
+                    <section className="relative  backdrop-blur-md mx-auto border-white/15 border-2 inset-x-0 bottom-16 w-10/12 bg-white/20 rounded-full flex items-center justify-between p-3">
                         <p className="text-base text-white">Kailasa</p>
                         <Link
                             href={""}
-                            className="text-xs border-1 text-primary"
+                            className="text-xs text-primary"
                         
                         >Learn More</Link>
                     </section>

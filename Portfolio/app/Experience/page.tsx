@@ -5,7 +5,7 @@ export default function ExperiencePage(){
 
     return (
         <section className="py-10 text-center">
-            <h1 className="text-primary text-6xl">Work Experience</h1>
+            <h1 className="text-primary text-6xl overline">Work Experience</h1>
             <div className="py-20">
                 
                 <ExperienceCards />
@@ -13,7 +13,7 @@ export default function ExperiencePage(){
 
             </div>
 
-            <h2 className="text-primary text-6xl">Projects</h2>
+            <h2 className="text-primary text-6xl overline">Projects</h2>
 
             <div>
 

@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={k2d.className}>
         <main className="max-w-screen-2xl mx-auto p-4">
-          <NavBar />
+          <NavBar/>
           {children}
         </main>
         

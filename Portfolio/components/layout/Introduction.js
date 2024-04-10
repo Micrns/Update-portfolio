@@ -1,5 +1,6 @@
 import Image from "next/image"
 import SocialLink from "./SocialLinks"
+import SkillsList from "@/components/layout/Skills";
 
 
 
@@ -14,12 +15,12 @@ export default function Introduct () {
                     src={"/IMG_0270.jpeg"}
                     width={600}
                     height={600}
-                    className="rounded-md"
+                    className="sticky top-0 rounded-md border-2 border-black sticky"
                     alt="prof-img"
 
                 />
 
-                <SocialLink />
+                <SocialLink/>
 
 
 
@@ -32,7 +33,11 @@ export default function Introduct () {
 
             </div>
 
+            
+
         </section>
+
+       
         
 
         
