@@ -17,7 +17,7 @@ import { SiCaddy } from "react-icons/si";
 
 export default function SkillsList(){
     return(
-        <div className="flex gap-3 text-3xl">
+        <div className="text-2xl">
             <SiTypescript/>
             <FaReact/>
             <FaPython/>
