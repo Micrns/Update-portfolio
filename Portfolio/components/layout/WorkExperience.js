@@ -5,7 +5,7 @@ export default function ExperienceCards() {
   return (
     <section>
       <div className="outline outline-primary/10 rounded flex items-center justify-center">
-        <Link href={"/"}>
+        <Link href={"/ObvioHealth"}>
           <div className="imageContainer">
             <Image
               src={"/unnamed.webp"}
@@ -18,7 +18,7 @@ export default function ExperienceCards() {
             </div>
           </div>
         </Link>
-        <Link href={"/"}>
+        <Link href={"/Kailasa"}>
           <div className="imageContainer">
             <Image
               src={"/kailaasa_logo.jpeg"}
