@@ -1,5 +1,6 @@
 import NavBar from "@/components/layout/Navigation";
 
+
 export default function Introduct() {
     return (
         <section className="relative h-screen">
