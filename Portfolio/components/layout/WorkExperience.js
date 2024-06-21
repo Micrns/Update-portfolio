@@ -18,7 +18,7 @@ export default function ExperienceCards() {
             </div>
           </div>
         </Link>
-        <Link href={"/"}>
+        <Link href={"/Kailasa"}>
           <div className="imageContainer">
             <Image
               src={"/kailaasa_logo.jpeg"}
