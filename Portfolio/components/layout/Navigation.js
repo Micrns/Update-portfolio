@@ -31,7 +31,7 @@ export default function NavBar(){
                         <FaGithub className="text-color-github" />
                     </Link>
                     <Link href={"/Experience"}>Experience</Link>
-                    <Link href={"/about"}>About</Link>
+                    <Link href={"/"}>About</Link>
                     <Link href={"mailto:oscarvreyess@gmail.com"}><MdOutlineEmail className="size-5"/></Link>
                     <Link href="/Resume/Oscar V Reyes's Resume.pdf"><IoIosPaper className="size-5" /></Link>
                 

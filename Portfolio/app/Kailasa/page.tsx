@@ -1,3 +1,4 @@
+
 "use client"
 
 import NavBar from "@/components/layout/Navigation";
@@ -77,6 +78,7 @@ export default function Kailasa (){
             
         
         </section>
+
 
     )
 }
