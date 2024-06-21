@@ -1,47 +1,20 @@
-import Image from "next/image"
-import SocialLink from "./SocialLinks"
-import SkillsList from "@/components/layout/Skills";
+import NavBar from "@/components/layout/Navigation";
 
 
+export default function Introduct() {
+    return (
+        <section className="relative h-screen">
+            <NavBar />
 
-export default function Introduct () {
-
-    return(
-
-        <section className="flex items-center py-10">
-            <div>
-
-                <Image 
-                    src={"/IMG_0270.jpeg"}
-                    width={600}
-                    height={600}
-                    className="sticky top-0 rounded-md border-2 border-black sticky"
-                    alt="prof-img"
-
-                />
-
-                <SocialLink/>
-
-
-
-            </div>
-
-            <div>
-                <h1 className="text-6xl p-5">
-                        <span className="text-primary">Hello, </span>my name is <span className="text-primary">Oscar Reyes</span>
+            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white px-4">
+                
+                <h1 className="text-slate-400 text-5xl py-5 fade-up">
+                    Hello,
                 </h1>
-
+                <h2 className="text-slate-400 text-5xl fade-up-delay">
+                    my name is <span className="text-primary">Oscar Reyes</span>
+                </h2>
             </div>
-
-            
-
         </section>
-
-       
-        
-
-        
-       
-    )
-
+    );
 }
