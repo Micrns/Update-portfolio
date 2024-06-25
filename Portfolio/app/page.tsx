@@ -16,18 +16,19 @@ const images = [
   '/collection/IMG_4064.jpeg',
   '/collection/IMG_2892.jpeg',
   '/collection/IMG_0501.jpeg',
-  '/collection/IMG_0643.jpg'
-  
-
-  
-
+  '/collection/IMG_0643.jpg',
+  '/collection/IMG_0946.jpeg',
+  '/collection/IMG_1160.jpeg',
+  '/collection/IMG_1191.jpeg',
+  '/collection/IMG_0984.jpeg',
 ];
 
 
 export default function Home() {
   return (
     <>
-
+      <NavBar />
+      
       <Introduct />
       
       <section className="max-w-screen-xl mx-auto p-4">

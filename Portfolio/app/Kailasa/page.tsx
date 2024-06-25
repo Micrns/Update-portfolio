@@ -47,7 +47,7 @@ export default function Kailasa (){
                 </motion.p>
             </div>
 
-            <div className="py-20 flex justify-center items-center gap-4">
+            <div className="py-20 flex justify-center  gap-4">
                 <motion.div 
                 className="flex flex-col gap-5"
                 initial="hidden" 
@@ -72,7 +72,11 @@ export default function Kailasa (){
                 viewport={{ once: true }}
                 variants={fadeInUp}>
                 <h1 className="text-primary text-2xl">Development Process</h1>
-                <p className="text-slate-400">Hello</p>
+                <p className="text-slate-400">As a Front-End Developer at Kailasa, I used Vue.js and CSS to design visually appealing and responsive user interfaces for key sections of the platform. My work focused on enabling users to sign in and purchase religious services easily and with minimal errors. This required a keen eye for detail and a solid understanding of user experience design to ensure that the interfaces were both functional and engaging.
+
+I also implemented secure storage solutions for user purchase records, significantly reducing the time needed for weekly service arrangements by over seven hours. By automating and securing the storage of these records, I streamlined the management process, making it more efficient and allowing Kailasa to focus on providing better services. This optimization led to smoother operations and improved user satisfaction.
+
+Collaboration was a big part of my role. I led weekly sync-up meetings with the lead software engineer via Google Meet, which were essential for effective communication and ensuring that website design and feature updates aligned with project goals and deadlines. These regular meetings allowed us to address challenges quickly and stay on track with our development process, fostering a cohesive team environment and ensuring our work met Kailasa's standards.</p>
                 </motion.div>
             </div>
             

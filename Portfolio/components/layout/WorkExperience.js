@@ -7,6 +7,7 @@ export default function ExperienceCards() {
       <div className="outline outline-primary/10 rounded flex items-center justify-center">
         <Link href={"/ObvioHealth"}>
           <div className="imageContainer">
+            
             <Image
               src={"/unnamed.webp"}
               width={400}
