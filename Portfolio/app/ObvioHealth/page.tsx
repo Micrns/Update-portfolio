@@ -1,3 +1,4 @@
+
 "use client"
 
 import NavBar from "@/components/layout/Navigation";
@@ -72,6 +73,7 @@ export default function ObvioHealthPage(){
         </motion.div>
       </div>
             
+
         </section>
     )
 }
