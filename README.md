@@ -1,0 +1,1 @@
+Hello this is the new and improved portfolio website for Oscar Reyes. Wanted to make new changes from the previous portfolio and use some new frameworks like Next.js and tailwind to improve my skills. To run the website: npm install and npm run dev for the local host. 
