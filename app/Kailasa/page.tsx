@@ -15,7 +15,7 @@ export default function Kailasa() {
       <NavBar />
       <div className="flex justify-center py-10 md:py-20">
         <Image
-          src="./visuals-000669216578-NlXWzN-t1240x260.jpg"
+          src="/visuals-000669216578-NlXWzN-t1240x260.jpg"
           width={1000}
           height={600}
           alt="Kailasa Icon"
@@ -31,7 +31,7 @@ export default function Kailasa() {
           variants={fadeInUp}
         >
           <Image
-            src="./Kailasa-hpage.png"
+            src="/Kailasa-hpage.png"
             width={600}
             height={500}
             alt="Kailasa Home Page"
@@ -61,14 +61,14 @@ export default function Kailasa() {
           variants={fadeInUp}
         >
           <Image
-            src="./Screenshot 2024-02-25 124618.png"
+            src="/Screenshot 2024-02-25 124618.png"
             width={600}
             height={600}
             alt="Kailasa Product confirmation"
             className="w-full md:w-auto"
           />
           <Image
-            src="./Screenshot 2024-02-25 124718.png"
+            src="/Screenshot 2024-02-25 124718.png"
             width={600}
             height={600}
             alt="Kailasa product scheduling"
