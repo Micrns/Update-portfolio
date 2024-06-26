@@ -1,49 +1,82 @@
-import Link from "next/link";
-import { IoMdHome } from "react-icons/io";
-import { MdOutlineEmail } from "react-icons/md";
-import { IoIosPaper } from "react-icons/io";
-import { FaLinkedin } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
+"use client"
 
-export default function NavBar(){
+import { useState } from 'react';
+import Link from 'next/link';
+import { IoMdHome } from 'react-icons/io';
+import { MdOutlineEmail } from 'react-icons/md';
+import { IoIosPaper } from 'react-icons/io';
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import { HiOutlineMenu, HiOutlineX } from 'react-icons/hi';
 
+export default function NavBar() {
+  const [isOpen, setIsOpen] = useState(false);
 
-    return (
-        <header className="sticky top-5 bg-white mx-auto rounded-full shadow-md w-1/2 z-50">
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
 
-            {/* make this into an interactive button */}
-            <div className="flex items-center justify-between p-4">
-                <div className="flex items-center gap-2">
-                    <Link href={"/"}>
-                        <IoMdHome className="size-5 text-primary"/>
-                    </Link>
-                    <p className="text-primary">Oscar Reyes</p>
-
-
-                </div>
-                
-                
-                <nav className="flex gap-4 text-primary hover:black items-center">
-                    <Link href="https://www.linkedin.com/in/oscar-reyes1/">
-                        <FaLinkedin className="text-color-linkedin" />
-                    </Link>
-                    <Link href="https://github.com/micrns">
-                        <FaGithub className="text-color-github" />
-                    </Link>
-                    <Link href={"/Experience"}>Experience</Link>
-                    <Link href={"/"}>About</Link>
-                    <Link href={"mailto:oscarvreyess@gmail.com"}><MdOutlineEmail className="size-5"/></Link>
-                    <Link href="/Resume/Oscar V Reyes's Resume.pdf"><IoIosPaper className="size-5" /></Link>
-                
-
-
-
-                </nav>
-            
-
-
+  return (
+    <header className="sticky top-5 bg-white mx-auto shadow-sm w-1/2 rounded-full z-50 p-4">
+      <div className="flex items-center justify-between">
+        <div className="flex items-center gap-2">
+          <Link href="/" passHref>
+            <div className="flex items-center gap-1 text-primary hover:text-slate-400 transition ease-in duration-400 cursor-pointer">
+              <IoMdHome size={24} />
+              <p>Oscar Reyes</p>
             </div>
-            
-        </header>
-    )
+          </Link>
+        </div>
+
+        <div className="md:hidden">
+          <button onClick={toggleMenu} aria-label="Toggle Menu">
+            {isOpen ? <HiOutlineX size={24} /> : <HiOutlineMenu size={24} />}
+          </button>
+        </div>
+
+        <nav className="hidden md:flex gap-4 items-center">
+          <Link href="https://www.linkedin.com/in/oscar-reyes1/">
+            <FaLinkedin className="text-color-linkedin hover:text-slate-400 transition ease-in duration-400" size={24} aria-label="LinkedIn" />
+          </Link>
+          <Link href="https://github.com/micrns">
+            <FaGithub className="text-color-github hover:text-slate-400 transition ease-in duration-400" size={24} aria-label="GitHub" />
+          </Link>
+          <Link href="/Experience">
+            <p className="text-primary hover:text-slate-400 cursor-pointer transition ease-in duration-400">Experience</p>
+          </Link>
+          <Link href="/">
+            <p className="text-primary hover:text-slate-400 cursor-pointer transition ease-in duration-400">About</p>
+          </Link>
+          <Link href="mailto:oscarvreyess@gmail.com">
+            <MdOutlineEmail className="text-primary hover:text-slate-400 transition ease-in duration-400" size={24} aria-label="Email" />
+          </Link>
+          <Link href="/Resume/Oscar V Reyes's Resume.pdf">
+            <IoIosPaper className="text-primary hover:text-slate-400 transition ease-in duration-400" size={24} aria-label="Resume" />
+          </Link>
+        </nav>
+      </div>
+
+      {isOpen && (
+        <nav className="md:hidden flex flex-col gap-4 mt-4">
+          <Link href="https://www.linkedin.com/in/oscar-reyes1/">
+            <FaLinkedin className="text-color-linkedin hover:text-black" size={24} aria-label="LinkedIn" />
+          </Link>
+          <Link href="https://github.com/micrns">
+            <FaGithub className="text-color-github hover:text-black" size={24} aria-label="GitHub" />
+          </Link>
+          <Link href="/Experience">
+            <p className="text-primary hover:text-black cursor-pointer">Experience</p>
+          </Link>
+          <Link href="/">
+            <p className="text-primary hover:text-black cursor-pointer">About</p>
+          </Link>
+          <Link href="mailto:oscarvreyess@gmail.com">
+            <MdOutlineEmail className="text-primary hover:text-black" size={24} aria-label="Email" />
+          </Link>
+          <Link href="/Resume/Oscar V Reyes's Resume.pdf">
+            <IoIosPaper className="text-primary hover:text-black" size={24} aria-label="Resume" />
+          </Link>
+        </nav>
+      )}
+    </header>
+  );
 }
