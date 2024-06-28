@@ -2,12 +2,11 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import { IoMdHome } from 'react-icons/io';
-import { MdOutlineEmail } from 'react-icons/md';
-import { IoIosPaper } from 'react-icons/io';
-import { FaLinkedin, FaGithub } from 'react-icons/fa';
-import { HiOutlineMenu, HiOutlineX } from 'react-icons/hi';
 
+
+
+import { HiOutlineMenu, HiOutlineX } from 'react-icons/hi';
+import Image from "next/image";
 export default function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -21,7 +20,15 @@ export default function NavBar() {
         <div className="flex items-center gap-2">
           <Link href="/" passHref>
             <div className="flex items-center gap-1 text-primary hover:text-slate-400 transition ease-in duration-400 cursor-pointer">
-              <IoMdHome size={24} />
+              {/* <IoMdHome size={24} /> */}
+              <Image
+              src="icons/ic_round-home.svg"
+              width={20}
+              height={20}
+              alt="Home Icon"
+              
+            />
+
               <p>Oscar Reyes</p>
             </div>
           </Link>
@@ -35,10 +42,24 @@ export default function NavBar() {
 
         <nav className="hidden md:flex gap-4 items-center">
           <Link href="https://www.linkedin.com/in/oscar-reyes1/">
-            <FaLinkedin className="text-color-linkedin hover:text-slate-400 transition ease-in duration-400" size={24} aria-label="LinkedIn" />
+            {/* <FaLinkedin className="text-color-linkedin hover:text-slate-400 transition ease-in duration-400" size={24} aria-label="LinkedIn" /> */}
+            <Image
+              src="icons/mdi_linkedin.svg"
+              width={20}
+              height={20}
+              alt="github Icon"
+              
+            />
           </Link>
           <Link href="https://github.com/micrns">
-            <FaGithub className="text-color-github hover:text-slate-400 transition ease-in duration-400" size={24} aria-label="GitHub" />
+            {/* <FaGithub className="text-color-github hover:text-slate-400 transition ease-in duration-400" size={24} aria-label="GitHub" /> */}
+            <Image
+              src="icons/mdi_github.svg"
+              width={20}
+              height={20}
+              alt="github Icon"
+              
+            />
           </Link>
           <Link href="/Experience">
             <p className="text-primary hover:text-slate-400 cursor-pointer transition ease-in duration-400">Experience</p>
@@ -47,10 +68,24 @@ export default function NavBar() {
             <p className="text-primary hover:text-slate-400 cursor-pointer transition ease-in duration-400">About</p>
           </Link>
           <Link href="mailto:oscarvreyess@gmail.com">
-            <MdOutlineEmail className="text-primary hover:text-slate-400 transition ease-in duration-400" size={24} aria-label="Email" />
+            {/* <MdOutlineEmail className="text-primary hover:text-slate-400 transition ease-in duration-400" size={24} aria-label="Email" /> */}
+            <Image
+              src="icons/ic_outline-email.svg"
+              width={20}
+              height={20}
+              alt="Home Icon"
+              
+            />
           </Link>
           <Link href="/Resume/Oscar V Reyes's Resume.pdf">
-            <IoIosPaper className="text-primary hover:text-slate-400 transition ease-in duration-400" size={24} aria-label="Resume" />
+            {/* <IoIosPaper className="text-primary hover:text-slate-400 transition ease-in duration-400" size={24} aria-label="Resume" /> */}
+            <Image
+              src="icons/quill_paper.svg"
+              width={20}
+              height={20}
+              alt="Home Icon"
+              
+            />
           </Link>
         </nav>
       </div>

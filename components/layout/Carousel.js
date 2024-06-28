@@ -3,8 +3,7 @@
 // components/CardSlider.js
 // components/CardSlider.js
 import React, { useState } from 'react';
-import { IoIosArrowForward } from "react-icons/io";
-import { IoIosArrowBack } from "react-icons/io";
+import Image from "next/image";
 
 const Carousel = ({ images }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -27,8 +26,22 @@ const Carousel = ({ images }) => {
         ))}
       </div>
       <div className="controls">
-        <button onClick={goToPrev}><IoIosArrowBack /></button>
-        <button onClick={goToNext}><IoIosArrowForward /></button>
+        <button onClick={goToPrev}><Image
+              src="icons/mdi_keyboard-arrow-left.svg"
+              width={40}
+              height={40}
+              alt="right Icon"
+              
+              
+            /></button>
+        <button onClick={goToNext}><Image
+              src="icons/mdi_keyboard-arrow-right.svg"
+              width={40}
+              height={40}
+              alt="right icon"
+              
+              
+            /></button>
       </div>
     </div>
   );
