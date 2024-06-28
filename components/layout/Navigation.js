@@ -2,10 +2,6 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-
-
-
-import { HiOutlineMenu, HiOutlineX } from 'react-icons/hi';
 import Image from "next/image";
 export default function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
