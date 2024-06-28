@@ -28,7 +28,7 @@ export default function SkillsList() {
                         alt={skill.alt}
                         className="w-15 md:w-24 lg:w-60 mb-2 transition-transform transform hover:scale-110"
                     />
-                    <span className="absolute left-full ml-2 bg-gray-800 text-white text-sm rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <span className="absolute right-full mr-1 bg-slate-100 text-primary text-sm rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                         {skill.label}
                     </span>
                 </div>
