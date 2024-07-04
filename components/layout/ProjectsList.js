@@ -7,7 +7,7 @@ export default function ProjectLists() {
       <Link href={'https://github.com/Micrns/college-housing'}>
         <div className="imageContainer">
           <Image 
-            src={"/college housing.png"}
+            src={"\college housing.png"}
             width={600}
             height={500}
             alt="college-housing"
@@ -22,7 +22,7 @@ export default function ProjectLists() {
       <Link href={'https://github.com/jjamesparkrr/holo'}>
         <div className="imageContainer">
           <Image 
-            src={"/Holo Mainpage (1).png"}
+            src={"\Holo Mainpage (1).png"}
             width={600}
             height={500}
             alt="rental-website"
@@ -37,7 +37,7 @@ export default function ProjectLists() {
       <Link href={'https://github.com/Micrns/Oscar-Reyes-portfolio'}>
         <div className="imageContainer">
           <Image 
-            src={"/Frame 1 (3).png"}
+            src={"\Frame 1 (3).png"}
             width={600}
             height={500}
             alt="past-portfolio"
@@ -52,7 +52,7 @@ export default function ProjectLists() {
       <Link href={'https://github.com/Micrns/java-weatherapp-api'}>
         <div className="imageContainer">
           <Image 
-            src={"/weather (2).png"}
+            src={"\weather (2).png"}
             width={600}
             height={500}
             alt="weather"
