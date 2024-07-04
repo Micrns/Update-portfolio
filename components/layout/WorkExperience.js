@@ -9,7 +9,7 @@ export default function ExperienceCards() {
           <div className="imageContainer">
             
             <Image
-              src={"/unnamed.webp"}
+              src={"\unnamed.webp"}
               width={400}
               height={600}
               alt="obviohealth"
@@ -22,7 +22,7 @@ export default function ExperienceCards() {
         <Link href={"/Kailasa"}>
           <div className="imageContainer">
             <Image
-              src={"/kailaasa_logo.jpeg"}
+              src={"\kailaasa_logo.jpeg"}
               width={400}
               height={600}
               alt="Kailasa"
