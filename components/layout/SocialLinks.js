@@ -15,6 +15,7 @@ export default function SocialLink() {
               layout="fill"
               alt="prof-img"
               className="object-cover"
+              unoptimized
             />
           </div>
         </FadeInSection>
