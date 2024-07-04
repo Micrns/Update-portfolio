@@ -82,7 +82,7 @@ export default function ProjectLists() {
       <Link href={'https://github.com/Micrns/Update-portfolio'}>
         <div className="imageContainer">
           <Image 
-            src={"/Sorting-algorithm.png"}
+            src={"\updatedPortfolio.png"}
             width={600}
             height={500}
             alt="weather"
