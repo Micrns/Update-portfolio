@@ -22,7 +22,7 @@ export default function SocialLink() {
               
             /> */}
             <img
-                        src="\profile-pic.jpeg"
+                        src="/profile-pic.jpeg"
                         alt="profile"
                         className="w-15 md:w-24 lg:w-60 mb-2 transition-transform transform hover:scale-110"
                     />
