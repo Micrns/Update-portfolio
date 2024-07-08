@@ -16,7 +16,7 @@ export default function ObvioHealthPage() {
 
       <div className="py-10 flex justify-center items-center">
         <Image
-          src="\color-obviohealth.svg"
+          src=".\public\obviohealth-logo-title.jpg"
           width={600}
           height={500}
           alt="ObvioHealth Logo"
