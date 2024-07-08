@@ -3,7 +3,8 @@
 import Image from "next/image";
 import SkillsList from "./Skills";
 import FadeInSection from "./FadeInSection";
-import profile from '/profile-pic.jpeg';
+import React from "react";
+
 
 export default function SocialLink() {
   return (
@@ -12,14 +13,19 @@ export default function SocialLink() {
         
         <FadeInSection>
           <div className="relative w-full md:w-[600px] h-[400px] md:h-[750px]">
-            <Image
+            {/* <Image
               src={profile}
               layout="fill"
               alt="prof-img"
               className="object-cover"
               unoptimized
               
-            />
+            /> */}
+            <img
+                        src="\profile-pic.jpeg"
+                        alt="profile"
+                        className="w-15 md:w-24 lg:w-60 mb-2 transition-transform transform hover:scale-110"
+                    />
           </div>
         </FadeInSection>
         <FadeInSection>
