@@ -3,15 +3,17 @@
 import Image from "next/image";
 import SkillsList from "./Skills";
 import FadeInSection from "./FadeInSection";
+import profile from '/profile-pic.jpeg';
 
 export default function SocialLink() {
   return (
     <>
       <div className="flex flex-col md:flex-row items-center gap-2 p-4">
+        
         <FadeInSection>
           <div className="relative w-full md:w-[600px] h-[400px] md:h-[750px]">
             <Image
-              src="\profile-pic.jpeg"
+              src={profile}
               layout="fill"
               alt="prof-img"
               className="object-cover"
