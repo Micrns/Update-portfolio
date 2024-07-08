@@ -9,7 +9,7 @@ export default function ExperienceCards() {
           <div className="imageContainer">
             
             <Image
-              src={"\nv17SAOL_400x400.jpg"}
+              src={"\obviohealth-logo.jpg"}
               width={400}
               height={600}
               alt="obviohealth"
