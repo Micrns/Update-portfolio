@@ -11,10 +11,11 @@ export default function SocialLink() {
         <FadeInSection>
           <div className="relative w-full md:w-[600px] h-[400px] md:h-[750px]">
             <Image
-              src="/IMG_0270.jpeg"
+              src="\profile-pic.jpeg"
               layout="fill"
               alt="prof-img"
               className="object-cover"
+              unoptimized
               
             />
           </div>
