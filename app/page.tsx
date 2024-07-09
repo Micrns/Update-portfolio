@@ -7,7 +7,7 @@ import SkillsList from "@/components/layout/Skills";
 import Carousel from '@/components/layout/Carousel';
 
 const images = [
-  '/collection/IMG_0472.jpeg',
+  '\collection\IMG_0472.jpeg',
   '/collection/IMG_0552.jpeg',
   '/collection/D62E079C-8D3E-4947-9260-C599CD2754A8.jpeg',
   '/collection/IMG_0230.jpeg',
