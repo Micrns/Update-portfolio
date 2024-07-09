@@ -15,7 +15,7 @@ export default function Kailasa() {
       <NavBar />
       <div className="flex justify-center py-10 md:py-20">
         <Image
-          src={"\kailasa-banner.jpg"}
+          src={"\kailasa-banner-logo.jpg"}
           width={1000}
           height={600}
           alt="Kailasa Icon"
