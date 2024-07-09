@@ -7,20 +7,20 @@ import SkillsList from "@/components/layout/Skills";
 import Carousel from '@/components/layout/Carousel';
 
 const images = [
-  '\collection\IMG_0472.jpeg',
-  '/collection/IMG_0552.jpeg',
-  '/collection/D62E079C-8D3E-4947-9260-C599CD2754A8.jpeg',
-  '/collection/IMG_0230.jpeg',
-  '/collection/IMG_0555.jpeg',
-  '/collection/IMG_1938.jpeg',
-  '/collection/IMG_4064.jpeg',
-  '/collection/IMG_2892.jpeg',
-  '/collection/IMG_0501.jpeg',
-  '/collection/IMG_0643.jpg',
-  '/collection/IMG_0946.jpeg',
-  '/collection/IMG_1160.jpeg',
-  '/collection/IMG_1191.jpeg',
-  '/collection/IMG_0984.jpeg',
+  '\collection\IMG-0472.jpeg',
+  '\collection\IMG-0552.jpeg',
+  '\collection\D62E079C-8D3E-4947-9260-C599CD2754A8.jpeg',
+  '\collection\IMG-0230.jpeg',
+  '\collection\IMG-0555.jpeg',
+  '\collection\IMG-1938.jpeg',
+  '\collection\IMG-4064.jpeg',
+  '\collection\IMG-2892.jpeg',
+  '\collection\IMG-0501.jpeg',
+  '\collection\IMG-0643.jpg',
+  '\collection\IMG-0946.jpeg',
+  '\collection\IMG-1160.jpeg',
+  '\collection\IMG-1191.jpeg',
+  '\collection\IMG-0984.jpeg',
 ];
 
 
