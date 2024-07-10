@@ -35,7 +35,7 @@ export default function Kailasa() {
             width={100}
             height={100}
             alt="Kailasa Home Page"
-            className="w-full md:w-auto"
+            className="w-full md:w-auto lg:w-full"
           />
         </motion.div>
         <motion.p
