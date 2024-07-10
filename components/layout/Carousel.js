@@ -27,15 +27,15 @@ const Carousel = ({ images }) => {
       </div>
       <div className="controls">
         <button onClick={goToPrev}><Image
-              src={"icons\mdi-keyboard-arrow-left.svg"}
+              src={"\mdi-keyboard-arrow-left.svg"}
               width={40}
               height={40}
-              alt="right Icon"
+              alt="left Icon"
               
               
             /></button>
         <button onClick={goToNext}><Image
-              src={"icons\mdi-keyboard-arrow-right.svg"}
+              src={"\mdi-keyboard-arrow-right.svg"}
               width={40}
               height={40}
               alt="right icon"
