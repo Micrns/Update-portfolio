@@ -32,8 +32,8 @@ export default function Kailasa() {
         >
           <Image
             src={"\Kailasa-hpage.png"}
-            width={400}
-            height={400}
+            width={200}
+            height={200}
             alt="Kailasa Home Page"
             className="w-full md:w-auto"
           />
