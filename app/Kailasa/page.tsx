@@ -32,10 +32,10 @@ export default function Kailasa() {
         >
           <Image
             src={"\Kailasa-hpage.png"}
-            width={100}
-            height={100}
+            width={50}
+            height={50}
             alt="Kailasa Home Page"
-            className="w-full md:w-auto lg:w-full"
+            className="w-full md:w-auto"
           />
         </motion.div>
         <motion.p
@@ -62,15 +62,15 @@ export default function Kailasa() {
         >
           <Image
             src={"\Screenshot 2024-02-25 124618.png"}
-            width={400}
-            height={400}
+            width={50}
+            height={50}
             alt="Kailasa Product confirmation"
             className="w-full md:w-auto"
           />
           <Image
             src={"\Screenshot 2024-02-25 124718.png"}
-            width={400}
-            height={400}
+            width={50}
+            height={50}
             alt="Kailasa product scheduling"
             className="w-full md:w-auto"
           />
