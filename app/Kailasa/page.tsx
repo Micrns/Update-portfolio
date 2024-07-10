@@ -32,10 +32,10 @@ export default function Kailasa() {
         >
           <Image
             src={"\Kailasa-hpage.png"}
-            width={200}
-            height={200}
+            width={100}
+            height={100}
             alt="Kailasa Home Page"
-            className="w-full "
+            className="w-full md:w-auto"
           />
         </motion.div>
         <motion.p
