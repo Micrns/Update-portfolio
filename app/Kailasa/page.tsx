@@ -32,8 +32,8 @@ export default function Kailasa() {
         >
           <Image
             src={"\Kailasa-hpage.png"}
-            width={600}
-            height={500}
+            width={400}
+            height={400}
             alt="Kailasa Home Page"
             className="w-full md:w-auto"
           />
@@ -62,15 +62,15 @@ export default function Kailasa() {
         >
           <Image
             src={"\Screenshot 2024-02-25 124618.png"}
-            width={600}
-            height={600}
+            width={400}
+            height={400}
             alt="Kailasa Product confirmation"
             className="w-full md:w-auto"
           />
           <Image
             src={"\Screenshot 2024-02-25 124718.png"}
-            width={600}
-            height={600}
+            width={400}
+            height={400}
             alt="Kailasa product scheduling"
             className="w-full md:w-auto"
           />
